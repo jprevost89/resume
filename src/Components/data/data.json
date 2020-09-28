@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "title": "QA Automation Engineer - December 2019 to Present",
+        "company": "MJFreeway - Denver, CO",
+        "responsibilities": [
+            "Train team to write and maintain automation scripts",
+            "Create Automation scripts for UI and API tests using Java and Katalon",
+            "Setup remote server on Jenkins to run testing suite for every new build",
+            "Work with devs to find workflows suitable for automation"
+
+        ]
+    },
+    {
+        "id": 2,
+        "title": "QA Automation Engineer - July 2019 to November 2019",
+        "company": "AirDNA - Denver, CO",
+        "responsibilities": [
+            "Collaborate with a Product Owner to determine Acceptance Criteria for stories",
+            "Create Automation scripts for API testing using Python and Pytest",
+            "Work independently to assess testing priority for various APIs",
+            "Establish proper QA standards, protocols, and workflows within a newly created QA department",
+            "Create Unit tests to test API functionality when developers aren’t able to create tests"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "QA Automation Engineer (3-month Contract) - April 2019 to July 2019",
+        "company": "Cake Insure - Denver, CO",
+        "responsibilities": [
+            "Collaborate with a team of Devs to determine the best approach to testing each feature",
+            "Create Automation scripts for front and back end testing using Cypress and JavaScript",
+            "Create Selenium and Python scripts to test cross-browser functionality",
+            "Engage in exploratory manual testing to find application vulnerabilities outside of automation frameworks"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Software Quality Assurance - June 2017 to February 2019",
+        "company": "Vertafore - Denver, CO",
+        "responsibilities": [
+            "Work with software engineers to develop strategies for testing to ensure product quality",
+            "Evaluate the next generation of products and improve efficiencies using automation and third party product integration",
+            "Use performance and testing tools to enhance product suite",
+            "Participate in the effort dedicated to the next evolution of Sircon Solutions suite that will include innovation in user experience, software and hardware",
+            "Utilize Big Data, NoSQL and Java"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Video Conference Specialist - May 2016 to March 2017",
+        "company": "Glowpoint - Denver, CO",
+        "responsibilities": [
+            "Manage large client accounts to ensure successful corporate videoconferences",
+            "Test and bridge connections between H.323 endpoints using various MCUs",
+            "Troubleshoot connection/firewall issues promptly to ensure successful videoconferences",
+            "Reach out to managed videoconferencing sites to assess connection speed, connection type video quality, audio quality, and VC room arrangement"
+        ]
+    }
+]

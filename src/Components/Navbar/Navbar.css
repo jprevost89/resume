@@ -1,0 +1,52 @@
+.Nav {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    margin:0;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    background-color: #0B2027;
+    border-bottom: 2px solid #CFD7C7;
+}
+
+.Nav li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #CFD7C7;
+    display: block;
+    float: left; 
+    width: 15%;
+    padding: 18px 15px; 
+}
+
+.Nav li a:hover {
+    background-color: #CFD7C7;
+    color: #0B2027;
+    cursor: pointer;
+}
+
+.Nav p {
+    text-align: right;
+    font-family: monospace;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: -9px;
+    font-weight: bolder;
+    color: #CFD7C7;
+}
+
+@media screen and (max-width: 870px) {
+    .Nav p {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Nav li a {
+        font-size: 12px;
+    }
+}
