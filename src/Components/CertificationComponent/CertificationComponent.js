@@ -4,7 +4,7 @@ import './CertificationComponent.css';
 
 const CertificationComponent = () => {
     return (
-        <div style={{backgroundColor: "#697183"}}>
+        <div>
             {data.map((data, id) => {
                 return (
                     <div className="certification" id={id}>

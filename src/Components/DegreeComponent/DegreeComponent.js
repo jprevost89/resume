@@ -4,7 +4,7 @@ import './DegreeComponent.css';
 
 const DegreeComponent = () => {
     return (
-        <div style={{backgroundColor: "#697183"}}>
+        <div>
             {data.map((data, id) => {
                 return (
                     <div className="degree" id={id}>
