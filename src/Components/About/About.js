@@ -21,6 +21,7 @@ class About extends Component {
         if(!nameIsSet) {
             formInput= (
                 <form className="column">
+                    <h3>Let's introduce ourselves.</h3>
                     <label>
                         Name:
                         <input type="text" name="name" onChange={(e) => this.nameChangeHandler(e)} />
@@ -30,7 +31,7 @@ class About extends Component {
             )
         } else {
             formInput = (
-                <div>
+                <div className="column">
                     <br/><br/>
                     <h1>Hello {this.state.name}</h1>
                     <h3>Welcome to the Resume of Jon Prevost!</h3>

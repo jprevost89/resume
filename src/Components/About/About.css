@@ -1,14 +1,37 @@
+
+
 .column {
-    float: left;
     width: 30%;
-    padding-top: 100px;
-    padding-bottom: 200px;
-    margin-left: 80px;
-    margin-right: 50px;
-    margin-top: 100px;
+    height: 300px;
+    display: block;
+    margin-top: 7%;
+    margin-left: 35%;
+    margin-bottom: 145px;
     border: 3px solid  #8a8f85;
     background-color: #CFD7C7;
     color: #282c34; 
+}
+
+.column input {
+    margin-top:60px;
+    margin-left:5px;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.column button {
+    background-color: cornflowerblue;
+    border-radius: 6px;
+    margin-left: 5px;
+    color: cornsilk;
+    padding: 5px;
+    border-style: double;
+    border-color: darkgray;
+}
+
+.column button:hover {
+    cursor: pointer;
+    background-color: rgb(67, 125, 231);
 }
 
 .row:after {
