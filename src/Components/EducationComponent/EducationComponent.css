@@ -20,3 +20,8 @@
     cursor: pointer;
     border-color: #CFD7C7;
 }
+
+.education hr {
+    border:  2 px#0B2027;
+    border-style: double;
+}

@@ -7,3 +7,8 @@
 .App-h1 {
   font-size: 30px;
 }
+
+.App hr {
+  border:  2 px#0B2027;
+  border-style: double;
+}
