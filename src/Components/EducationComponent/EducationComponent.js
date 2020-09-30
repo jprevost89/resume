@@ -20,9 +20,7 @@ class EducationComponent extends Component {
         let defaultState = this.state.default;
         let educationView;
         if(defaultState) {
-            educationView = (
-                <div/>
-            )
+            educationView = null;
         } else {
             if(this.props.component == "Degree") {
                 educationView = <DegreeComponent/>
