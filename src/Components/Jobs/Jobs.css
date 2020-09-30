@@ -1,9 +1,9 @@
 .Jobs {
-    width: 80%;
+    width: 60%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
     padding: 25px;
-    margin-left: 7.5%;
+    margin-left: 16%;
     margin-bottom: 3%;
     text-align: left;
     color: #0B2027;
@@ -24,6 +24,7 @@
 
 @media screen and (max-width: 500px) {
     .Jobs {
+        margin-left: 7%;
         width: 70%;
         margin-top: 15%;
         font-size: 15px;

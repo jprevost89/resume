@@ -1,4 +1,5 @@
 .footer {
-    margin-bottom:0;
-    float: bottom;
+    height: max-content;
+    background-color: #70a9a1;
+    margin-top: 260px;
 }

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "provider": "Udemy",
+        "course": "React"
+    },
+    {
+        "id": 2,
+        "provider": "Udemy",
+        "course": "SQL"
+    },
+    {
+        "id": 3,
+        "provider": "Udemy",
+        "course": "JavaScript"
+    },
+    {
+        "id": 4,
+        "provider": "Udemy",
+        "course": "PHP"
+    }
+]

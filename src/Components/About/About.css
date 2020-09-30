@@ -36,6 +36,14 @@
     color: white;
 }
 
+.column a {
+    color: #282c34;
+}
+
+.column a:hover {
+    color: #5674b6;
+}
+
 .column h1 {
     margin-top: 0;
 }
@@ -61,5 +69,19 @@
         margin-bottom: 5px;
         border-radius: 6px;
         padding: 5px;
+    }
+
+    .column h1 {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .column h3 {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .column p a {
+        font-size: 12px;
     }
 }

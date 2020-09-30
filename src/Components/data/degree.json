@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "School": "Upper State New York University",
+        "Years": "2008-2013",
+        "Degree": "Bachelor of Arts in English Literature"
+    },
+    {
+        "id": 2,
+        "School": "University of Denver",
+        "Years": "2018",
+        "Degree": "Full-Stack Coding Bootcamp"
+
+    }
+]
