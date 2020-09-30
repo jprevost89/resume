@@ -33,6 +33,7 @@ class About extends Component {
                 <div>
                     <br/><br/>
                     <h1>Hello {this.state.name}</h1>
+                    <h3>Welcome to the Resume of Jon Prevost!</h3>
                 </div>
             )
         }
