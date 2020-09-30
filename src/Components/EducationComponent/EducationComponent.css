@@ -16,6 +16,12 @@
     border-width: 3px;
 }
 
+.education img {
+    filter: invert(91%) sepia(14%) saturate(171%) hue-rotate(47deg) brightness(95%) contrast(85%);
+    float: left;
+    padding-top: 4px;
+}
+
 .education button:hover {
     cursor: pointer;
     border-color: #CFD7C7;

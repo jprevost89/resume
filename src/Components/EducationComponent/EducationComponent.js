@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import DegreeComponent from '../DegreeComponent/DegreeComponent';
 import CertificationComponent from '../CertificationComponent/CertificationComponent';
-import './EducationComponent.css'
+import './EducationComponent.css';
+import dropdown from '../../Pictures/expand-button.png';
 
 class EducationComponent extends Component {
     state = {
@@ -30,7 +31,7 @@ class EducationComponent extends Component {
         }
         return(
             <div className="education">
-                <button onClick={this.toggleHandler}>{this.props.name}</button>
+                <button onClick={this.toggleHandler}><img src={dropdown}/>{this.props.name}</button>
                 {educationView}
             </div>
         )

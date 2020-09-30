@@ -10,9 +10,7 @@ const EducationPage = () => {
             <Navbar/>
             <br/>
             <Education name="DEGREE" component="Degree"/>
-            <hr/>
             <Education name="CERTIFICATION" component="Certification"/>
-            <hr/>
             <Footer/>
         </div>
     )
