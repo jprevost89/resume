@@ -7,3 +7,16 @@
     margin-top: 50px;
     width: 20%;
 }
+
+@media screen and (max-width: 500px) {
+    .certification {
+        width: 100px;
+    }
+    .certification h2{
+        font-size: 20px;
+    }
+
+    .certification h3{
+        font-size: 13.5px;
+    }
+}

@@ -24,7 +24,7 @@ class About extends Component {
                     <h3>Let's introduce ourselves.</h3>
                     <label>
                         Name:
-                        <input type="text" name="name" onChange={(e) => this.nameChangeHandler(e)} />
+                        <input type="text" name="name" maxLength="11" onChange={(e) => this.nameChangeHandler(e)} />
                     </label>
                     <button onClick={this.nameSubmitHandler}>Submit</button>
                 </form>

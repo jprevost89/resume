@@ -21,7 +21,8 @@
     border-color: #CFD7C7;
 }
 
-.education hr {
-    border:  2 px#0B2027;
-    border-style: double;
+@media screen and (max-width: 500px) {
+    .education {
+        margin-top: 20%;
+    }
 }
