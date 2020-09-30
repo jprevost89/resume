@@ -34,7 +34,10 @@ class About extends Component {
                 <div className="column">
                     <br/><br/>
                     <h1>Hello {this.state.name}</h1>
-                    <h3>Welcome to the Resume of Jon Prevost!</h3>
+                    <h3>Welcome to the resume of Jon Prevost!</h3>
+                    <p><a href="/experience">Check out my experience?</a></p>
+                    <p><a href="#">Check out my book learnin'?</a></p>
+                    <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Bail and go browse YouTube?</a></p>
                 </div>
             )
         }
