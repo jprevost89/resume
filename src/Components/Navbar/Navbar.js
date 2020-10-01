@@ -9,10 +9,10 @@ const Navbar = () => {
     return (
         <div>
             <ul className="Nav">
-                <li><a href='/'><img src={home}/>Home</a></li>
-                <li><a href='/experience'><img src={work}/>Experience</a></li>
-                <li><a href='/education'><img src={education}/>Education</a></li>
-                <li><a href='/contact'><img src={contact}/>Contact</a></li>
+                <li><a href='/'><img src={home} alt="home icon"/>Home</a></li>
+                <li><a href='/experience'><img src={work} alt="experience icon"/>Experience</a></li>
+                <li><a href='/education'><img src={education} alt="education icon"/>Education</a></li>
+                <li><a href='/contact'><img src={contact} alt="contact icon"/>Contact</a></li>
                 <p>Jon Prevost</p>
             </ul>
         </div>

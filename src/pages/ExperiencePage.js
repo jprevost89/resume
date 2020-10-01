@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import Experience from '../Components/Experience/Experience';
 import Footer from '../Components/Footer/Footer';

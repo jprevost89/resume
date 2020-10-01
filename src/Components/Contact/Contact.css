@@ -1,8 +1,8 @@
 .Contact {
-    width: 100%;
-    height: 560px;
-    margin-top: 3%;
     display: inline-block;
+    margin:0;
+    padding:0;
+    height:100%;
     color: #282c34; 
 }
 
@@ -17,9 +17,4 @@
 .Contact h3 a{
     color: #282c34;
      
-}
-@media screen and (max-width: 500px) {
-    .Contact {
-        height: 800px;
-    }
 }

@@ -1,7 +1,9 @@
 .App {
   text-align: center;
   background-color:#70a9a1;
-  height: max-content;
+  position: relative;
+  min-height: 100vh;
+  max-height: fit-content;
 }
 
 .App-h1 {

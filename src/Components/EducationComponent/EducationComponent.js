@@ -23,7 +23,7 @@ class EducationComponent extends Component {
         if(defaultState) {
             educationView = null;
         } else {
-            if(this.props.component == "Degree") {
+            if(this.props.component === "Degree") {
                 educationView = <DegreeComponent/>
             } else {
                 educationView = <CertificationComponent/>
@@ -31,7 +31,7 @@ class EducationComponent extends Component {
         }
         return(
             <div className="education">
-                <button onClick={this.toggleHandler}><img src={dropdown}/>{this.props.name}</button>
+                <button onClick={this.toggleHandler}><img src={dropdown} alt="dropdown arrow"/>{this.props.name}</button>
                 {educationView}
             </div>
         )
