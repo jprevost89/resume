@@ -14,3 +14,7 @@
   border:  2 px#0B2027;
   border-style: double;
 }
+
+html {
+  overflow-y: scroll;
+}

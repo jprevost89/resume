@@ -10,7 +10,7 @@ const EducationPage = () => {
             <Navbar/>
             <br/>
             <Education name="DEGREE" component="Degree"/>
-            <Education name="CERTIFICATION" component="Certification"/>
+            <Education name="CERTIFICATIONS" component="Certification"/>
             <Footer/>
         </div>
     )
