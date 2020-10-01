@@ -17,14 +17,15 @@
 }
 
 .education img {
-    filter: invert(91%) sepia(14%) saturate(171%) hue-rotate(47deg) brightness(95%) contrast(85%);
-    float: left;
+    filter: invert(91%) sepia(14%) saturate(171%) hue-rotate(47deg) brightness(95%) contrast(85%);;
     padding-top: 4px;
+    margin-right: 5px;
 }
 
 .education button:hover {
     cursor: pointer;
     border-color: #CFD7C7;
+    color: white;
 }
 
 @media screen and (max-width: 500px) {
